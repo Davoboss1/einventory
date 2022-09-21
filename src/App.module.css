@@ -1,0 +1,200 @@
+.App_AppBar{
+    background: linear-gradient(90deg,#d14071, #e789aa);
+}
+
+.App_MenuButton{
+    color: #ffffff;
+}
+
+.App_SaveButton{
+    color: white;
+}
+
+.App_Topbar{
+    display: flex;
+    margin-top: 25px;
+}
+
+.App_Griditemcontainer{
+	margin: 40px 10%;
+	width: auto;
+}
+
+.App_Addiconbutton{
+    margin-right:25px ;
+}
+
+.App_Addiconbutton img{
+    width: 30px;
+    height: 30px;
+}
+
+.App_Editiconbutton{
+	margin:auto 0;
+	margin-right: 10px;
+	background-color: #f06292;
+	color: white;
+	height: 30px;
+	width: 30px;
+}
+
+.App_Editiconbutton:hover{
+	background-color: #da517f;
+}
+
+.App_SearchInput{
+    margin: 0 auto;
+    padding-right: 0;
+    height: 40px;
+}
+
+.pageLabel{
+  margin: auto;
+  color: #820031;
+}
+@media screen and (max-width: 650px){
+    .App_SearchInput{
+        position: absolute;
+        right: 0;
+        left: 0;
+        max-width: 250px;
+        margin-top: 50px;
+    }
+
+    .pageLabel{
+      position: absolute;
+      margin-top: 70px;
+      width: 100%;
+      text-align: center;
+    }
+
+	.App_Editiconbutton{
+		margin-left: auto;
+	}
+}
+
+.App_Itemimage{
+    display: block;
+    width: 160px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+	border-radius: 10px;
+}
+
+.App_Itemcontainer{
+	max-width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.App_Itemcontainer > div{
+    text-align: center;
+	background-color: #e0e0e0;
+	margin-top: 15px;
+	border-radius: 5px;
+	padding: 15px 20px;
+	box-shadow: 5px 5px 10px #808080;
+}
+.App_Itemcontainer > div h2{
+	margin: 0;
+}
+
+.App_Itemcontainer > div h4{
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+.App_Iteminputcontainer .MuiInput-root{
+	background: yellow;
+}
+
+.App_Inputicons{
+	margin-top: 15px;
+	padding-left: 0;
+	padding-right: 0;
+	background-color: #f06292;
+	border-radius: 5px;
+	height: 35px;
+	width: 35px;
+}
+
+.App_Uploadbutton{
+	background-color: #ce4e78;
+}
+
+.App_Uploadbutton:hover{
+	background-color: #b34368;
+}
+
+.App_Editbutton{
+	background-color: #ce4e78;
+	width: 80%;
+}
+
+.App_Editbutton:hover{
+	background-color: #b34368;
+	width: 80%;
+}
+
+.App_Inputicons:hover{
+	background-color: #ce4e78;
+}
+
+.App_Inputicons svg{
+    font-size: 30px;
+	color: #ffffff;
+}
+
+.App_UploadButton{
+
+	margin: 10px auto;
+}
+
+.App_UploadButton svg{
+    font-size: 50px;
+	color: gray;
+}
+
+.App_Dropdownmenu div{
+	width: 100%;
+	max-width: 250px;
+}
+
+.App_ItemCountText{
+	color: green;
+}
+
+.App_footer{
+	background: linear-gradient(90deg,#d14071, #e789aa);
+	color: white;
+	padding: 20px;
+}
+
+.App_footer div{
+	margin: 0 auto;
+	margin-top: 10px;
+	max-width: 400px;
+	background: #a52852;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-left: 10px solid white;
+}
+
+.App_footer h4{
+	margin: 10px auto;
+}
+
+.App_Socialiconscontainer{
+	border: none !important;
+	padding-left: 0 !important;
+}
+
+.App_Socialiconscontainer a{
+	color: white;
+	margin-right: 10px;
+}
+
+.App_Socialiconscontainer svg{
+	font-size: 2rem;
+}
